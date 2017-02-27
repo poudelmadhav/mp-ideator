@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300,400,600,700" rel="stylesheet"> 
   </head>
 
   <body>
@@ -13,6 +14,17 @@
   	<%= link_to "All Ideas", welcome_ideas_path %>
   	<%= link_to "Inspire Me", welcome_inspire_path %>
   	<%= link_to "About", welcome_about_path %>
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Ideator</a>
+  </div>
+  
     <%= yield %>
   </body>
 </html>
