@@ -10,12 +10,6 @@
   </head>
 
   <body>
-  	<!--
-    <%= link_to "Ideator", root_path %>
-    <%= link_to "All Ideas", welcome_ideas_path %>
-    <%= link_to "Inspire Me", welcome_inspire_path %>
-    <%= link_to "About", welcome_about_path %> 
-     -->
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,9 +20,9 @@
       </button>
       <a class="navbar-brand" href="/">Ideator</a>
       <div class="nav">
-        <a href="#">All Ideas</a>
-        <a href="#">Inspire Me</a>
-        <a href="#">About</a>
+      <%= link_to "All Ideas", welcome_ideas_path %>
+      <%= link_to "Inspire Me", welcome_inspire_path %>
+      <%= link_to "About", welcome_about_path %>
       </div>
   </div>
 

@@ -23,7 +23,8 @@ html, body {
   color: $main-blue;
 }
 
-.nav a{
+.nav{
+	text-align: right;
 	float: right;
 	padding: 2px;
 }
