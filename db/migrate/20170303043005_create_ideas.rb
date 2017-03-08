@@ -3,8 +3,7 @@ class CreateIdeas < ActiveRecord::Migration[5.0]
     create_table :ideas do |t|
     	t.string :author
     	t.text :description
-
-      t.timestamps
+		t.timestamps null: false
     end
   end
 end
