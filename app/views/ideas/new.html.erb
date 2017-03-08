@@ -1,0 +1,9 @@
+<%= form_for @idea do |f| %>
+	<%= f.label :author %>
+	<%= f.text_field :author %>
+	<br>
+	<%= f.label :description %>
+	<%= f.text_field :description %>
+	<br>
+	<%= f.button :submit %>
+<% end %>

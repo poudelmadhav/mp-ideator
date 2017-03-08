@@ -8,7 +8,9 @@ $secondary-font: 'Dosis', sans-serif;
 
 html, body {
   font-family: $primary-font;
-}
+  margin-left: 2%;
+  margin-right: 2%;
+  }
 
 .navbar-default {
   font-family: $secondary-font;
@@ -18,7 +20,26 @@ html, body {
 
 .navbar-default .navbar-brand {
   font-weight: 100; 
-  font-size: 30px;
+  font-size: 23px;
   letter-spacing: 2px;
   color: $main-blue;
+}
+
+.navbar-header {
+	float: none;
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+}
+
+.nav ul{
+	list-style-type: none;
+	padding: 10px;
+}
+li {
+	float: right;
+    display: inline;
+    padding: 0px 10px 0px 10px;
 }
