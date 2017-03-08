@@ -1,1 +1,5 @@
-<h1>Hello, It's me <a href="http://poudelmadhav.com.np">Madhav Paudel</a>.This is my first app ever and I’m super excited to become a coder.</h1>
+<h1>All Ideas</h1><br><hr>
+<% @ideas.each do |idea| %>
+	<h3><%= idea.description %> <br></h3>
+	<h4>- <%= idea.author %> <hr></h4>
+<% end %>
