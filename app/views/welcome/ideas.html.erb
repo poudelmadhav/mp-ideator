@@ -1,5 +1,11 @@
-<h1>All Ideas</h1><br><hr>
+<h1>All Ideas</h1>
 <% @ideas.each do |idea| %>
-	<h3><%= idea.description %> <br></h3>
-	<h4>- <%= idea.author %> <hr></h4>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <blockquote>
+        <p><%= idea.description %></p>
+        <small>by <%= idea.author %></small>
+      </blockquote> 
+    </div>
+  </div>
 <% end %>

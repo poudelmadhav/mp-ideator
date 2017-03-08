@@ -3,10 +3,6 @@ class IdeasController < ApplicationController
 		@ideas = Idea.all
 	end
 
-	def new
-		@idea = Idea.new
-	end
-
 	def create
 
 	end
