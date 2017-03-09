@@ -4,7 +4,7 @@ class IdeasController < ApplicationController
 	end
 
 	def create
-
+		@idea = Idea.create(description: params[:idea][:description], author: params[:idea][:author])
 	end
 
 end
