@@ -8,6 +8,6 @@ class StaticPagesController < ApplicationController
   	end
 
   	def ideas
-  		@ideas = Idea.all
+  		@ideas = Idea.all.order('created_at DESC')
   	end
 end
