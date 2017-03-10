@@ -8,6 +8,6 @@ class StaticPagesController < ApplicationController
   	end
 
   	def ideas
-  		@ideas = Idea.all.order('created_at DESC')
+  		@ideas = Idea.all.order('created_at DESC').paginate(:page => params[:page], :per_page => 10)
   	end
 end
