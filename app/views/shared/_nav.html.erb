@@ -6,9 +6,12 @@
     <span class="icon-bar"></span>
   </button>
   <a class="navbar-brand" href="/">Ideator</a>
-  <ul class="nav">
-    <li><%= link_to "About", welcome_about_path %></li>
-    <li><%= link_to "Inspire Me", welcome_inspire_path %></li>
-    <li><%= link_to "All Ideas", welcome_ideas_path %></li>
-  </ul>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to 'All Ideas', ideas_path %></li>
+      <li><%= link_to 'About', about_path %></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
 </div><!-- navbar-header -->

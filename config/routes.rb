@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
-  get 'welcome/ideas'
-
-  get 'welcome/inspire'
-
-  get 'welcome/about'
+	
+  get 'ideas' => 'static_pages#ideas'
 
   get 'about' => 'static_pages#about'
 
