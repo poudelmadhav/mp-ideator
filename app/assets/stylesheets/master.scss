@@ -1,7 +1,7 @@
 $main-blue: #337ab7;  
 $primary-font: 'Open Sans', sans-serif;  
 $secondary-font: 'Dosis', sans-serif; 
-$footer-height: 125px;
+$footer-height: 45px;
 
 .navbar-default {
   font-family: $secondary-font;
@@ -78,15 +78,8 @@ body {
 /* Set the fixed height of the footer here */
 .footer {
   height: $footer-height;
-  padding: 2px;
-  background: #dbdbdb;
-  border-radius: 7px;
 }
 
 .mp-btn {
   width: 100%;
-}
-
-.social-buttons {
-  font-size: 40px;
 }
