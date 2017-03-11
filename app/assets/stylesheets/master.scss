@@ -29,7 +29,7 @@ html, body {
 }
 
 .navbar-header {
-	float: none;
+  float: none;
   padding: 2px;
   background: #dbdbdb;
   border-radius: 7px;
@@ -38,8 +38,16 @@ html, body {
 }
 
 .navbar-brand {
-	font-family: 'Pacifico', cursive;
-	font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.icon-bar {
+  background-color: #337ab7;
 }
 
 li {
