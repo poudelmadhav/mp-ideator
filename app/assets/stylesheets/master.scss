@@ -9,12 +9,6 @@ $footer-height: 45px;
 
 html, body {
   font-family: $primary-font;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-#wrap{
-  margin-top: 1%;
 }
 
 .navbar-default {
@@ -73,13 +67,21 @@ body {
   margin: 0 auto -$footer-height;
   /* Pad bottom by footer height */
   padding: 0 0 $footer-height;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
 }
 
 /* Set the fixed height of the footer here */
 .footer {
-  height: $footer-height;
+  min-height: 120px;
+  background-color: #f5f5f5;
 }
 
 .mp-btn {
   width: 100%;
+}
+
+.social-buttons {
+    font-size: 40px;
 }
