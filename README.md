@@ -27,3 +27,6 @@ Things you may want to cover:
 # mp-ideator
 Idea sharing app learned from TECHRISE
 >>>>>>> f88e55524164536faf8d9ff677fffd94de364a69
+
+The app is published at:
+https://madhav-ideator.herokuapp.com/
