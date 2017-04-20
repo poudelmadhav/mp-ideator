@@ -13,9 +13,9 @@ class IdeasController < ApplicationController
 		redirect_to root_path
 	end
 
-	def edit
-		@idea = Idea.find(params[:id])
-	end
+	# def edit
+	# 	@idea = Idea.find(params[:id])
+	# end
 
 	def update
 	  @idea = Idea.find(params[:id])
@@ -28,12 +28,12 @@ class IdeasController < ApplicationController
 	  end
 	end
 
-	def destroy
-	  @idea = Idea.find(params[:id])
-	  @idea.destroy
-	  flash[:success] = "The idea was successfully deleted!"
-	  redirect_to root_path
-	end
+	# def destroy
+	#   @idea = Idea.find(params[:id])
+	#   @idea.destroy
+	#   flash[:success] = "The idea was successfully deleted!"
+	#   redirect_to root_path
+	# end
 
 	private
 
